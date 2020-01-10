@@ -1,0 +1,57 @@
+.robot {
+	width: 50%;
+	float: right; 
+}
+header {
+	background-size: 155px; 
+	max-width: 75rem; 
+	margin-left: auto;
+	margin-right: auto; 
+	background-color: #02577A; 
+    padding-left: 11%;
+    background-image: url(../images/sciencelogorounded.png);
+    background-repeat: no-repeat;
+	 background-position:.3% 100%;
+	padding-bottom: .5%;
+	padding-top: 6%;
+   
+}
+
+header h1 {
+	font-size:1.9rem;
+	letter-spacing:.32rem;
+	padding: 1rem 0 .8rem 1.8rem;
+	margin-left: 2.5%;
+    letter-spacing:.3rem;
+}
+header h2 {
+	visibility: visible;
+	font-size: .8rem;
+}
+
+nav {
+	display: block;
+	border-top: 2px solid white; 
+}
+
+nav ul.menu li {
+	float: left; 
+	padding: .8rem .8rem .8rem .8rem;
+	color: #fff;
+	 letter-spacing: 2px;
+	list-style-type: none;
+    // display: inline;
+	border: none;
+border-right: 1px solid #333; 
+	width: 25%; 
+	
+}
+
+nav ul.menu li a {
+	display: block;
+	padding:.5rem 1.2rem; 
+    text-decoration: none;
+    font-weight: 600; 
+	
+}
+

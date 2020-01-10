@@ -1,0 +1,135 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	height: 100%; 
+	font-family: 'Titillium Web', sans-serif;
+	background-color: #fff;
+}
+
+header {
+	max-width: 75rem; 
+	margin-left: auto;
+	margin-right: auto; 
+	background-color: #02577A; 
+    padding-left: 11%;
+    background-image: url(../images/sciencelogorounded.png);
+    background-repeat: no-repeat;
+	 background-position:.3% 60%;
+    background-size:120px;
+	
+	padding-top: 3%;
+    
+}
+
+header h1 {
+    color: #D8FF0D; 
+    padding: 1.5rem 0 0rem 4.5rem;
+    font-size:1.6rem;
+    text-shadow: .5px .5px 0px #f6f6f6;
+    margin-left: 2.5%;
+    letter-spacing:.3rem;
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+header h2 {
+	visibility: hidden; 
+    color: #efefef;
+    padding: 0 0 .3rem 2rem;
+    margin: -1% 0 0 0;
+    font-size: 1rem;
+    letter-spacing: .262rem;
+    text-shadow: .5px .5px 0px #f6f6f6;
+    margin-left: 2.5%;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+}
+
+
+nav {
+	background-color: #111; 
+	
+	display: flex; 
+}
+
+nav ul.menu {
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+nav ul.menu li {
+	float: left; 
+	padding: .8rem .8rem .8rem .8rem;
+	color: #fff;
+	 letter-spacing: 1.6px;
+	list-style-type: none;
+    // display: inline;
+border: 1px solid #333; 
+	text-align: center; 
+	flex-wrap: wrap;
+	width: 50%;
+	
+	
+}
+
+nav ul.menu li a {
+	display: block;
+	padding:.5rem 1.2rem; 
+    text-decoration: none;
+    font-weight: 600; 
+}
+
+
+
+nav ul.menu li.active {
+	background-color: #D8FF0D;
+	color: #000; 
+	font-weight: 800;
+}
+.keepopen {
+	clear: both; 
+}
+
+main {
+	max-width: 75rem; 
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+main h1 {
+	font-size: 2rem;
+	margin-top: 2%;
+	color: #02577A;
+}
+
+div.hero img{
+	width: 100%;
+}
+
+
+footer {
+	text-align: center; 
+	background-color: black;
+	color: white;
+	padding: 1rem 0;
+	margin-top: 2%;
+}
+
+.robot {
+	width: 100%;
+}
+
+main p {
+	font-size: 1.1rem;
+	line-height: 130%;
+	margin: .9rem 0;
+}
+
+.wrap {
+ 
+	padding-left: 1%;
+	padding-right: 1.2%;
+}

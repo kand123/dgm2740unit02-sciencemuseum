@@ -1,0 +1,50 @@
+
+header {
+	max-width: 75rem; 
+	margin-left: auto;
+	margin-right: auto; 
+    padding-left: 11%;
+	background-position:.3% 100%;
+    background-size:200px;
+	padding-bottom: .5%;
+	padding-top: 6%;
+}
+
+header h1 {
+	font-size:2.3rem;
+	letter-spacing:.3rem;
+}
+header h2 {
+	font-size: 1rem;
+}
+
+nav ul.menu {
+	max-width: 75rem;} 
+
+nav ul.menu li:not(:first-child):before {
+    content: " | ";
+}
+
+nav ul.menu li:first-child {
+    padding-left: .7rem;
+}
+
+nav ul.menu li {
+	border-right: none;
+	padding: .8rem .5rem .8rem 0rem;
+	width: auto; 
+}
+
+.robot {
+	width: 30%;
+	float: right; 
+	margin-left: 1.5%;
+}
+
+.wrap {
+	max-width: 75rem;
+	margin-left: auto; 
+	margin-right: auto; 
+	padding-left: .5%;
+	padding-right: .5%;
+}
