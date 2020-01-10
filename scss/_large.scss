@@ -1,22 +1,31 @@
 
-header {
-	max-width: 75rem; 
-	margin-left: auto;
+.wrap {
+	max-width: 75rem;
+	margin-left: auto; 
 	margin-right: auto; 
-    padding-left: 11%;
-	background-position:.3% 100%;
-    background-size:200px;
-	padding-bottom: .5%;
-	padding-top: 6%;
+	padding-left: 0;
+	padding-right: 0;
 }
 
-header h1 {
+// header
+
+header {
+    padding-left: 9%;
+	background-position:.3% 90%;
+    background-size:175px;
+	padding-bottom: .5%;
+	padding-top: 6%;
+
+h1 {
 	font-size:2.3rem;
 	letter-spacing:.3rem;
 }
-header h2 {
+h2 {
 	font-size: 1rem;
 }
+}
+
+
 
 nav ul.menu {
 	max-width: 75rem;} 
@@ -35,16 +44,9 @@ nav ul.menu li {
 	width: auto; 
 }
 
+
+
 .robot {
 	width: 30%;
-	float: right; 
-	// margin-left: 1.5%;
 }
 
-.wrap {
-	max-width: 75rem;
-	margin-left: auto; 
-	margin-right: auto; 
-	padding-left: 0;
-	padding-right: 0;
-}
